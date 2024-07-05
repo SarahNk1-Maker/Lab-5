@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
     // Ensure that the user supplied exactly one command line argument 
     if (argc != 2) { 
         fprintf(stderr, "Please provide at least one command line argument\n");
-        return -1:
+        return -1;
     }
     int a[ARRAY_SIZE];
     initialize(a);
